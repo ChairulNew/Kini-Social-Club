@@ -1,0 +1,19 @@
+#feedback {
+  width: 1372px;
+  background: var(--color-warning);
+  /* padding: 0 38px; */
+}
+.wrapper-feedback {
+  /* padding: 38px; */
+  background-color: var(--color-warning);
+}
+.title-feedback {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 18px;
+}

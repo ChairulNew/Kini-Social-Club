@@ -1,0 +1,35 @@
+export const navData = [
+  { name: "HOME", id: "home", type: "scroll" },
+  { name: "OUR MENU", id: "OURMENU", type: "dropdown" },
+  { name: "BLOG", id: "BLOG", type: "scroll" },
+  { name: "RSPV", id: "RSPV", type: "scroll" },
+  {
+    name: "INSTAGRAM",
+    id: "https://instagram.com",
+    type: "icon",
+    icon: "instagram",
+  },
+  {
+    name: "WHATSAPP",
+    id: "https://wa.me/123456789",
+    type: "icon",
+    icon: "whatsapp",
+  },
+];
+export const ourMenuItems = [
+  "Main menu",
+  "Rice Bowl",
+  "Noodle and Pasta",
+  "PIZZA",
+  "Dessert",
+  "Bites",
+  "Coffe Based",
+  "KINI Signature",
+  "Coffe Mocktail",
+  "Flavored tea",
+  "Milk Shake",
+  "Fancy Mocktail",
+  "Juice",
+  "Powder Based",
+  "Mineral Water",
+];

@@ -1,0 +1,95 @@
+#gallery {
+  margin: 25px 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-gallery {
+  margin-top: -35px;
+  gap: 59px;
+}
+.left-gallery {
+  gap: 59px;
+}
+.title-gallery {
+  color: var(--color-text);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* styling gambar */
+.twins {
+  display: flex;
+  max-width: 100%;
+  padding: 36px;
+}
+.twins .left-gallery {
+  display: flex;
+  flex-direction: column;
+}
+.twins .right-gallery {
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+}
+.twins .right-gallery {
+  display: flex;
+  flex-direction: column;
+}
+.gambar-2 {
+  height: 300px;
+}
+.gambar-1,
+.gambar-2 {
+  margin-bottom: 20px;
+  min-height: max-content;
+}
+
+/* overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  cursor: zoom-out;
+}
+
+.modal-image {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  cursor: default;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.modal-close-btn {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  font-size: 48px;
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10000;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .twins {
+    flex-direction: column;
+  }
+}

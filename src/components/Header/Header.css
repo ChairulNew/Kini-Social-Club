@@ -1,0 +1,94 @@
+#header {
+  margin-top: 90px;
+  position: relative;
+}
+
+.header-wrap {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin-top: -95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.slogan-text-wrap {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.title-heading {
+  color: #fff;
+
+  text-shadow: 0px 0px 4px #000;
+  font-family: Oswald;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header-bottom {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.header-bottom .header-text-bottom {
+  color: white;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .title-heading {
+    font-size: 2rem;
+  }
+
+  .btn {
+    width: 250px;
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+
+  .header-bottom .header-text-bottom {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-heading {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    width: 200px;
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  .slogan-text-wrap {
+    padding: 10px;
+  }
+
+  .header-bottom .header-text-bottom {
+    font-size: 0.8rem;
+  }
+}
