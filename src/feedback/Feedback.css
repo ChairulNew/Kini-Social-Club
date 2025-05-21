@@ -1,19 +1,135 @@
 #feedback {
-  width: 1372px;
-  background: var(--color-warning);
-  /* padding: 0 38px; */
+  width: 100%;
+  background: #ffd000;
+  padding: 20px;
+  box-sizing: border-box;
 }
+
 .wrapper-feedback {
-  /* padding: 38px; */
-  background-color: var(--color-warning);
+  /* background-color: var(--color-warning); */
+  padding: 20px;
 }
+
 .title-feedback {
   color: #000;
   text-align: center;
-  font-family: Montserrat;
-  font-size: 36px;
-  font-style: normal;
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
   font-weight: 700;
-  line-height: normal;
   margin-bottom: 18px;
+}
+
+.sub_title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.btn-section-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#testimonial {
+  /* background: var(--color-ui-secondary); */
+  overflow: hidden;
+}
+
+.testimonial_container {
+  margin-top: 40px;
+}
+
+.testimonial_card {
+  height: 100%;
+  padding: 20px;
+  border-radius: var(--radius-3);
+  background: var(--color-ui-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s;
+}
+
+.testimonial_card:hover {
+  transform: scale(0.97);
+}
+
+.user_row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #ccc;
+}
+
+.details .name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #555;
+  flex-grow: 1;
+}
+
+.stars_container {
+  display: flex;
+  gap: 5px;
+  color: var(--color-warning);
+}
+#testimonial .slick-slide > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#testimonial .slick-track {
+  display: flex !important;
+  gap: 20px; /* Atur besar jarak antar card */
+  align-items: stretch;
+}
+
+@media screen and (max-width: 768px) {
+  .title-feedback {
+    font-size: 24px;
+  }
+
+  .testimonial_card {
+    padding: 15px;
+  }
+
+  .content {
+    font-size: 13px;
+  }
+
+  .profile img {
+    width: 40px;
+    height: 40px;
+  }
 }
