@@ -1,0 +1,28 @@
+#footer {
+  height: 250px;
+  background: white;
+}
+.wrap-footer {
+  padding: 25px;
+  margin: 64px 0;
+}
+.sub-title-footer {
+  color: #000;
+  margin: 18px 0;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.row-icon-footer {
+  margin: 18px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 54px;
+}
+.footer-text-center {
+  text-align: center;
+}

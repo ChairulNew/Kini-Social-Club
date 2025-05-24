@@ -1,5 +1,4 @@
 import Navbar from "./components/Navbar/Navbar";
-import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Section1 from "./components/Section/Section1";
 import Section2 from "./components/Section/Section2";
@@ -8,6 +7,7 @@ import Section4 from "./components/Section/section4";
 import Section5 from "./components/Section/Section5";
 import Gallery from "./Gallery/Gallery";
 import Feedback from "./feedback/Feedback";
+import Footer from "./assets/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <Section5 />
       <Gallery />
       <Feedback />
+      <Footer />
     </>
   );
 }

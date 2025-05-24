@@ -1,4 +1,3 @@
-import React from "react";
 import "./Feedback.css";
 
 import Slider from "react-slick";
@@ -65,7 +64,7 @@ const Feedback = () => {
         </section>
       </div>
       <div className="btn-section-gallery button-center">
-        <button className="btn">Click for more...</button>
+        <button className="btn">Send your feedback</button>
       </div>
     </section>
   );
