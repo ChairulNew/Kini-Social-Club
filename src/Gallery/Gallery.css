@@ -107,7 +107,6 @@
     margin-bottom: 36px;
   }
 
-  /* Mengatur urutan gambar di right-gallery untuk mobile */
   .right-gallery .gambar-2:first-child {
     order: 2;
   }

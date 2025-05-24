@@ -6,7 +6,7 @@ const Header = () => {
     <section id="header">
       <div className="header-wrap">
         <div className="slogan-text-wrap">
-          <h1 className=" title-heading">SUNSET OF MIND</h1>
+          <h1 className="title-heading">SUNSET OF MIND</h1>
           <button className="btn_title">Click for more information</button>
         </div>
         <video

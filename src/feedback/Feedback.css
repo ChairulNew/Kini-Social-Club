@@ -4,6 +4,9 @@
   padding: 20px;
   box-sizing: border-box;
 }
+.conteiner_feedback {
+  margin: 35px;
+}
 
 .wrapper-feedback {
   padding: 20px;
@@ -106,20 +109,66 @@
 }
 
 @media screen and (max-width: 768px) {
+  #feedback {
+    padding: 16px;
+  }
+
+  .wrapper-feedback {
+    padding: 10px;
+  }
+
   .title-feedback {
     font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .sub_title {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
   }
 
   .testimonial_card {
-    padding: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px;
   }
 
   .content {
     font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .user_row {
+    gap: 10px;
+    margin: 8px 0;
   }
 
   .profile img {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .details .name {
+    font-size: 14px;
+  }
+
+  .stars_container {
+    font-size: 14px;
+    gap: 4px;
+  }
+
+  .button-center {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  #testimonial .slick-track {
+    gap: 12px;
   }
 }

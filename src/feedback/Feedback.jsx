@@ -35,7 +35,7 @@ const Feedback = () => {
           improvement. <br /> Here are some of the responses from our users.
         </p>
         <section id="testimonial">
-          <div className="container">
+          <div className="conteiner_feedback">
             <Slider {...settings} className="testimonial_container">
               {testimonial.map((list, index) => (
                 <div className="testimonial_card" key={index}>
