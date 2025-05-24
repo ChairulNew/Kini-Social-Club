@@ -68,7 +68,9 @@ p {
   margin-bottom: 89px;
   color: var(--color-text);
 }
-
+/* .section-1-style {
+  padding: 25px;
+} */
 /* Responsive */
 @media (max-width: 768px) {
   #section1,

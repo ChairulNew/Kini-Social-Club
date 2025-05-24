@@ -40,17 +40,6 @@ const Feedback = () => {
             <Slider {...settings} className="testimonial_container">
               {testimonial.map((list, index) => (
                 <div className="testimonial_card" key={index}>
-                  <div className="user_row">
-                    <div className="profile">
-                      {/* Optional: tambahkan src={list.image} jika tersedia */}
-                      <img src="/default-profile.png" alt={list.name} />
-                    </div>
-                    <div className="details">
-                      <h3 className="name">{list.name}</h3>
-                      {/* <small className="text_muted">Jabatan</small> */}
-                    </div>
-                  </div>
-                  <p className="text_muted content">{list.description}</p>
                   <div className="stars_container">
                     <FaStar />
                     <FaStar />
@@ -58,13 +47,24 @@ const Feedback = () => {
                     <FaStar />
                     <FaStar />
                   </div>
+                  <p className="text_muted list-date">{list.date}</p>
+                  <div className="user_row">
+                    <div className="profile">
+                      <img src="/default-profile.png" alt={list.name} />
+                    </div>
+                    <div className="details">
+                      <h3 className="name">{list.name}</h3>
+                    </div>
+                  </div>
+                  <p className="text_muted content">{list.description}</p>
+                  <p className="text_muted content">{list.note}</p>
                 </div>
               ))}
             </Slider>
           </div>
         </section>
       </div>
-      <div className="btn-section-gallery">
+      <div className="btn-section-gallery button-center">
         <button className="btn">Click for more...</button>
       </div>
     </section>

@@ -6,7 +6,6 @@
 }
 
 .wrapper-feedback {
-  /* background-color: var(--color-warning); */
   padding: 20px;
 }
 
@@ -16,61 +15,66 @@
   font-family: Montserrat, sans-serif;
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 18px;
 }
 
 .sub_title {
   text-align: center;
-  margin-bottom: 20px;
   font-size: 16px;
   color: #333;
 }
 
-.btn-section-gallery {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.btn {
-  padding: 10px 20px;
-  border: none;
-  background-color: black;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
 #testimonial {
-  /* background: var(--color-ui-secondary); */
   overflow: hidden;
 }
+.list-date {
+  padding: none !important;
+}
+#testimonial .slick-track {
+  display: flex !important;
+  gap: 20px;
+  align-items: stretch;
+}
 
-.testimonial_container {
-  margin-top: 40px;
+#testimonial .slick-slide > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .testimonial_card {
   height: 100%;
-  padding: 20px;
-  border-radius: var(--radius-3);
-  background: var(--color-ui-primary);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .testimonial_card:hover {
   transform: scale(0.97);
 }
 
+.stars_container {
+  display: flex;
+  gap: 5px;
+  color: #ffbb00;
+  margin-bottom: 10px;
+}
+
+.text_muted {
+  color: #555;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
 .user_row {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .profile img {
@@ -84,35 +88,21 @@
 .details .name {
   font-size: 16px;
   font-weight: 600;
+  color: #000;
 }
 
-.content {
-  font-size: 14px;
-  margin: 10px 0;
-  color: #555;
-  flex-grow: 1;
-}
-
-.stars_container {
-  display: flex;
-  gap: 5px;
-  color: var(--color-warning);
-}
-#testimonial .slick-slide > div {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
 .content {
   flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-bottom: 10px;
 }
 
-#testimonial .slick-track {
-  display: flex !important;
-  gap: 20px; /* Atur besar jarak antar card */
-  align-items: stretch;
+.button-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {

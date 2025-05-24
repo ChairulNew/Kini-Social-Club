@@ -33,39 +33,48 @@ export const ourMenuItems = [
   "Powder Based",
   "Mineral Water",
 ];
-
 // data review
-
 export const testimonial = [
   {
     title: "Proyek Pembangunan Perumahan",
-    // image: building_5,
-    description: `Pengembangan perumahan komprehensif yang melibatkan pembangunan komunitas perumahan baru dari pembersihan dan persiapan lokasi awal hingga konstruksi rumah dan lansekap akhir.`,
+    date: "1 tahun yang lalu",
+    name: "Kim jong un",
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dol.`,
+    note: "Note: Max. 380 Character",
   },
   {
     title: "Gedung Perkantoran Komersial",
-    // image: building_6,
-    description: `Pembangunan gedung perkantoran bertingkat yang mencakup seluruh desain arsitektur dan struktur, koordinasi pekerjaan khusus untuk sistem HVAC dan kelistrikan, serta pengawasan proyek secara menyeluruh.`,
+    date: "1 tahun yang lalu",
+    name: "Kim jong un",
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dol.`,
+    note: "Note: Max. 380 Character",
   },
   {
     title: "Renovasi Ruang Ritel",
-    // image: building_7,
-    description: `Mengubah toko ritel yang ketinggalan zaman menjadi ruang komersial modern, yang melibatkan pembongkaran interior, desain tata letak baru, pemasangan perlengkapan baru, dan pembaruan utilitas.`,
+    date: "1 tahun yang lalu",
+    name: "Kim jong un",
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dol.`,
+    note: "Note: Max. 380 Character",
   },
   {
     title: "Konstruksi Gudang Industri",
-    // image: building_8,
-    description: `Membangun gudang industri berskala besar, termasuk pembersihan lahan, pekerjaan pondasi, pemasangan struktur baja, dan manajemen konstruksi lengkap dari awal hingga akhir.`,
+    date: "1 tahun yang lalu",
+    name: "Kim jong un",
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dol.`,
+    note: "Note: Max. 380 Character",
   },
   {
     title: "Restorasi Bangunan Bersejarah",
-    // image: building_9,
-    description: `Memulihkan dan merenovasi bangunan bersejarah untuk menjaga integritas arsitekturnya sekaligus memperbaruinya agar sesuai dengan standar modern, yang melibatkan pengerjaan yang cermat dan teknik restorasi khusus.`,
+    date: "1 tahun yang lalu",
+    name: "Kim jong un",
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dol.`,
+    note: "Note: Max. 380 Character",
   },
   {
     title: "Educational Facility Expansion",
-    // image: building_10,
-    description: `Expanding an existing school with new classrooms and facilities, encompassing all phases from initial design and site preparation to construction and 
-    final project management to ensure timely completion.`,
+    date: "1 tahun yang lalu",
+    name: "Kim jong un",
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dol`,
+    note: "Note: Max. 380 Character",
   },
 ];
