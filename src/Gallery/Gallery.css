@@ -1,19 +1,22 @@
 #gallery {
   margin: 25px 0;
 }
+
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .right-gallery {
-  margin-top: -35px;
   gap: 59px;
 }
+
 .left-gallery {
   gap: 59px;
 }
+
 .title-gallery {
   color: var(--color-text);
   text-align: center;
@@ -30,22 +33,23 @@
   max-width: 100%;
   padding: 36px;
 }
+
 .twins .left-gallery {
   display: flex;
   flex-direction: column;
+  padding: 36px;
 }
+
 .twins .right-gallery {
   display: flex;
   flex-direction: column;
   padding: 36px;
 }
-.twins .right-gallery {
-  display: flex;
-  flex-direction: column;
-}
+
 .gambar-2 {
   height: 300px;
 }
+
 .gambar-1,
 .gambar-2 {
   margin-bottom: 20px;
@@ -91,5 +95,30 @@
 @media (max-width: 768px) {
   .twins {
     flex-direction: column;
+  }
+
+  .right-gallery,
+  .left-gallery {
+    margin-top: 0;
+    margin-bottom: 36px;
+  }
+  .gambar-1,
+  .gambar-2 {
+    margin-bottom: 36px;
+  }
+
+  /* Mengatur urutan gambar di right-gallery untuk mobile */
+  .right-gallery .gambar-2:first-child {
+    order: 2;
+  }
+
+  .right-gallery .gambar-1:last-child {
+    order: 1;
+  }
+  .twins .left-gallery {
+    padding: 0;
+  }
+  .twins .right-gallery {
+    padding: 0;
   }
 }

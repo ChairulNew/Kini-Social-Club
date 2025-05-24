@@ -53,15 +53,13 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-
-      {/* Modal overlay */}
       {modalImage && (
         <div className="modal-overlay" onClick={closeModal}>
           <img
             src={modalImage}
             alt="modal"
             className="modal-image"
-            onClick={(e) => e.stopPropagation()} // supaya klik gambar gak close modal
+            onClick={(e) => e.stopPropagation()}
           />
           <button className="modal-close-btn" onClick={closeModal}>
             &times;
